@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "PT-Sans";
+  src: url("../fonts/PTSans-Bold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT-Sans";
+  src: url("../fonts/PTSans-BoldItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PT-Sans";
+  src: url("../fonts/PTSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT-Sans";
+  src: url("../fonts/PTSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+h2 {
+  font-family: "PT-Sans";
+  font-weight: 900;
+  font-size: 3.75rem;
+  color: #1b2a49;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+.banner {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -5;
+  overflow: hidden;
+}
+
+.banner img {
+  min-width: 100%;
+  height: 100vh;
+}
+
+.banner .overlay-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: "PT-Sans";
+  color: white;
+  text-align: center;
+}
+
+.banner .overlay-text h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 3.25rem;
+}
+
+@media (max-width: 768px) {
+  .banner .overlay-text h1 {
+    font-size: 3rem;
+    letter-spacing: 1.8rem;
+    padding-left: 1.8rem;
+  }
+}
+
+.banner .overlay-text p {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 1rem;
+}
+
+@media (max-width: 768px) {
+  .banner .overlay-text p {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  background: white;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me img {
+  width: 200px;
+  padding: 1rem 0;
+}
+
+.about-me h2 {
+  padding-bottom: 1.5rem;
+}
+
+.about-me p {
+  font-family: "PT-Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .about-me p {
+    font-size: 1.5rem;
+  }
+}
+
+.dots-deco {
+  text-align: center;
+}
+
+.dots-deco p {
+  font-size: 3rem;
+  color: #c4c4c4;
+}
+
+.skills h2 {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.skills .skills-item {
+  padding: 1.5rem 0;
+}
+
+.skills .skills-item p {
+  font-family: "PT-Sans";
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .skills .skills-item p {
+    font-size: 1.1rem;
+  }
+}
+
+.skills .skills-item .icons img {
+  padding: 0.5rem;
+  width: 110px;
+  height: 110px;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio h2 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.portfolio p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "PT-Sans";
+  letter-spacing: 0.2rem;
+  color: #30343f;
+}
+
+.portfolio .wrapper-container .fyp-section-container {
+  position: relative;
+}
+
+.portfolio .wrapper-container .fyp-section-container .fyp-section {
+  background: #465881;
+}
+
+.portfolio .wrapper-container .cxa-section-container {
+  position: relative;
+}
+
+.portfolio .wrapper-container .cxa-section-container .cxa-section {
+  background: #00909e;
+}
+
+.portfolio .wrapper-container .wad-section-container {
+  position: relative;
+}
+
+.portfolio .wrapper-container .wad-section-container .wad-section {
+  background: #c9d1d3;
+}
+
+.portfolio .wrapper-container .wad-section-container .wad-section h2 {
+  color: #465881 !important;
+}
+
+.portfolio .wrapper-container .wad-section-container .wad-section p {
+  color: #465881 !important;
+}
+
+.portfolio .wrapper-container .graphic-section-container {
+  position: relative;
+}
+
+.portfolio .wrapper-container .graphic-section-container .graphic-section {
+  background: white;
+  padding-top: 2rem;
+}
+
+.portfolio .wrapper-container .graphic-section-container .graphic-section h2 {
+  width: 100%;
+  color: #1b2a49 !important;
+}
+
+.portfolio .wrapper-container .graphic-section-container .graphic-section p {
+  color: #465881 !important;
+}
+
+.portfolio .wrapper-container .graphic-section-container .graphic-section .gallery-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .portfolio .wrapper-container .graphic-section-container .graphic-section .gallery-container {
+    width: 100%;
+  }
+}
+
+.portfolio .wrapper-container .graphic-section-container .graphic-section .gallery-container img {
+  width: 100%;
+}
+
+.portfolio .portfolio-item {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+.portfolio .portfolio-item h2 {
+  color: white;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .portfolio .portfolio-item h2 {
+    width: 90%;
+    padding-bottom: 1rem;
+  }
+}
+
+.portfolio .portfolio-item .content-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.portfolio .portfolio-item .content-section .image-container img {
+  width: 100%;
+}
+
+.portfolio .portfolio-item .content-section .content-container {
+  height: 100%;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.portfolio .portfolio-item .content-section .content-container p {
+  text-align: left;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+}
+
+.footer {
+  background: #c9d1d3;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.footer h2 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.footer .icon-container {
+  padding: 2rem 0;
+  padding-bottom: 4rem;
+  width: 20%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .footer .icon-container {
+    width: 80%;
+  }
+}
+
+.footer .icon-container i {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.footer small {
+  color: white;
+}
