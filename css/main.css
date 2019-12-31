@@ -160,6 +160,14 @@ h2 {
   }
 }
 
+.skills .skills-item .icons .image-container {
+  text-align: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
 .skills .skills-item .icons img {
   padding: 0.5rem;
   width: 110px;
