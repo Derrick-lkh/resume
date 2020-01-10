@@ -3,6 +3,11 @@ $(document).ready(function() {
   $(".wrapper").offset({ top: moveTop, left: 0 });
   console.log(moveTop);
 
+  $("#nus-wrapper").stickySidebar({
+    container: "#nus-layer",
+    sidebarInner: ".portfolio-item "
+  });
+
   $("#fyp-wrapper").stickySidebar({
     container: "#main-wrapper",
     sidebarInner: ".portfolio-item "
@@ -59,6 +64,11 @@ function responsiveSlider(slider) {
 }
 
 $(window).resize(function() {
+  $("#nus-wrapper").stickySidebar({
+    container: "#nus-layer",
+    sidebarInner: ".portfolio-item "
+  });
+
   $("#fyp-wrapper").stickySidebar({
     container: "#main-wrapper",
     sidebarInner: ".portfolio-item "
