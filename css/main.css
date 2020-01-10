@@ -191,6 +191,29 @@ h2 {
   color: #30343f;
 }
 
+.portfolio .nus-section-container {
+  position: relative;
+}
+
+.portfolio .nus-section-container .nus-section {
+  background: #1b2a49;
+}
+
+.portfolio .nus-section-container .nus-section .btn-container {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.portfolio .nus-section-container .nus-section .btn {
+  margin: 0 auto;
+  color: white;
+  font-size: 1.3rem;
+  border: 1px solid white;
+}
+
 .portfolio .wrapper-container .fyp-section-container {
   position: relative;
 }
